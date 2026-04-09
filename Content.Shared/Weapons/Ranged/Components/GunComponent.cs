@@ -301,12 +301,6 @@ public sealed partial class GunComponent : Component
     public Angle MuzzleFlashRotationOffset;
 
     /// <summary>
-    ///     This multiplier will apply per projectile fired by the weapon.
-    /// </summary>
-    [DataField]
-    public float DamageModifier = 1f;
-
-    /// <summary>
     /// Mono
     /// Recoil to incur per ammo shot, kg*m/s.
     /// </summary>
