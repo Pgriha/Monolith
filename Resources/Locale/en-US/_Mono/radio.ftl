@@ -1,6 +1,6 @@
-chat-radio-ussp = USSP TACCOMM
-chat-radio-ussp-command = USSP STRATCOMM
-chat-radio-letoferol = Letoferol Chimera Hivemind
-chat-radio-cortical-borer = Cortical Borer Hivemind
-chat-radio-remnants = Remnants
-chat-radio-monolithic = Monolith Connection
+chat-radio-ussp = Комуняки
+chat-radio-ussp-command = Командування Комуняк
+chat-radio-letoferol = Розум Хімер
+chat-radio-cortical-borer = Розум Кортікального Борера
+chat-radio-remnants = Залишки
+chat-radio-monolithic = Зв'язок Моноліта
