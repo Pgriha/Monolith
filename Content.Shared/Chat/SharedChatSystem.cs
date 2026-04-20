@@ -25,7 +25,7 @@ public abstract class SharedChatSystem : EntitySystem
     public const char AdminPrefix = ']';
     public const char WhisperPrefix = ',';
     public const char CollectiveMindPrefix = '+';
-    public const char DefaultChannelKey = 'h';
+    public const char DefaultChannelKey = ':'; // Cheeburbr. h в оригіналі. Ідея вкрадена в potatoed'а
 
     [ValidatePrototypeId<RadioChannelPrototype>]
     public const string CommonChannel = "Common";
