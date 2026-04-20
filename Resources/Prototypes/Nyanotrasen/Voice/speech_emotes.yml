@@ -1,6 +1,6 @@
 # vocal emotes
 - type: emote
-  id: Hiss
+  id: Шипіти
   category: Vocal
   name: Hiss
   icon: Interface/Actions/scream.png
@@ -11,7 +11,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [hisses.]
+  chatMessages: [шипить.]
   chatTriggers:
     - hiss
     - hisses
@@ -22,11 +22,13 @@
     - hissed
     - hissing.
     - hissed.
+    - шипить # Cheeburbr. До кінця прототипу
+    - шиплять
 
 - type: emote
   id: Meow
   category: Vocal
-  name: Meow
+  name: Нявкнути
   icon: Interface/Actions/scream.png
   available: false
   whitelist:
@@ -35,7 +37,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [meows.]
+  chatMessages: [нявкає.]
   chatTriggers:
     - meow
     - meows
@@ -64,9 +66,21 @@
     - mraows.
     - mraows!
     - mraows~
+    - нявкає # Cheeburbr. До кінця прототипу
+    - нявкають
+    - нявчить
+    - нявчать
+    - мявчить
+    - мявчать
+    - мяукає
+    - мяукають
+    - мявкає
+    - мявкають
+    - нявкотить
+    - нявкотять
 
 - type: emote
-  id: Mew
+  id: Мєвкнути
   category: Vocal
   name: Mew
   icon: Interface/Actions/scream.png
@@ -77,17 +91,19 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [mews.]
+  chatMessages: [мєвкає.]
   chatTriggers:
     - mew
     - mews
     - mewing
     - mewed
+    - мєвкає  # Cheeburbr. До кінця прототипу
+    - мєвкають
 
 - type: emote
   id: Growl
   category: Vocal
-  name: Growl
+  name: Гарчати
   icon: Interface/Actions/scream.png
   available: false
   whitelist:
@@ -96,17 +112,19 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [growls.]
+  chatMessages: [гарчить.]
   chatTriggers:
     - growl
     - growls
     - growling
     - growled
+    - гарчить # Cheeburbr. До кінця прототипу
+    - гарчать
 
 - type: emote
   id: Purr
   category: Vocal
-  name: Purr
+  name: Мурчати
   icon: Interface/Actions/scream.png
   available: false
   whitelist:
@@ -115,9 +133,17 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [purrs.]
+  chatMessages: [мурчить.]
   chatTriggers:
     - purr
     - purrs
     - purring
     - purred
+    - мурчить # Cheeburbr. До кінця прототипу
+    - мурчать
+    - мурликає
+    - мурличуть
+    - мурмоче
+    - мурмочуть
+    - муркоче
+    - муркочуть

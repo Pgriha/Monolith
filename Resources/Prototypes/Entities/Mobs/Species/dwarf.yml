@@ -52,7 +52,7 @@
     accent: dwarf
   - type: Speech
     speechSounds: Bass
-    allowedEmotes: ['Belch'] # Frontier
+#    allowedEmotes: ['Belch'] # Frontier – Cheeburbr. Нащо це?
   - type: LanguageKnowledge # Einstein Engines - Languages
     speaks:
     - TauCetiBasic

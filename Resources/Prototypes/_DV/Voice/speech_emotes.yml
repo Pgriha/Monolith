@@ -10,12 +10,14 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [honks.]
+  chatMessages: [гонкає.]
   chatTriggers:
     - honk
     - honks
     - honking
     - honked
+    - гонкає # Cheeburbr. До кінця прототипу
+    - гонкають
 
 - type: emote
   id: HarpyRing
@@ -28,13 +30,15 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [rings.]
+  chatMessages: [дзвенить.]
   chatTriggers:
     - ring
     - rings
     - ringing
     - ringed
     - rang
+    - дзвенить # Cheeburbr. До кінця прототипу
+    - дзвенять
 
 - type: emote
   id: HarpyPew
@@ -47,11 +51,13 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [pews.]
+  chatMessages: [піукає.]
   chatTriggers:
     - pew
     - pews
     - pewpew
+    - піукає # Cheeburbr. До кінця прототипу
+    - піукають
 
 - type: emote
   id: HarpyBang
@@ -64,12 +70,16 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [bangs.]
+  chatMessages: [стріляє.]
   chatTriggers:
     - bang
     - bangs
     - banging
     - banged
+    - стріляє # Cheeburbr. До кінця прототипу
+    - стріляють
+    - імітує звуки постріла
+    - імітують звуки пострілу
 
 - type: emote
   id: HarpyBeep
@@ -82,12 +92,14 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [beeps.]
+  chatMessages: [біпає.]
   chatTriggers:
     - beep
     - beeps
     - beeping
     - beeped
+    - біпає # Cheeburbr. До кінця прототипу
+    - біпають
 
 - type: emote
   id: HarpyRev
@@ -100,12 +112,14 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [revs.]
+  chatMessages: [гуркоче.]
   chatTriggers:
     - rev
     - revs
     - revving
     - revved
+    - гуркоче # Cheeburbr. До кінця прототипу
+    - гуркочуть
 
 - type: emote
   id: HarpyCaw
@@ -118,12 +132,14 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [caws.]
+  chatMessages: [каркає.]
   chatTriggers:
     - caw
     - caws
     - cawing
     - cawed
+    - каркає # Cheeburbr. До кінця прототипу
+    - каркають
 
 #Vulpkanin
 - type: emote
@@ -137,12 +153,18 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [barks.]
+  chatMessages: [гавкає.]
   chatTriggers:
     - bark
     - barks
     - barked
     - barking
+    - гавкає # Cheeburbr. До кінця прототипу
+    - гавкають
+    - гавчить
+    - гавчать
+    - тявкає
+    - тявкають
 
 - type: emote
   id: Snarl
@@ -155,12 +177,16 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [snarls.]
+  chatMessages: [ричить.]
   chatTriggers:
     - snarl
     - snarls
     - snarled
     - snarling
+    - ричить # Cheeburbr. До кінця прототипу
+    - ричать
+    - огризається
+    - огризаються
 
 - type: emote
   id: Whine
@@ -173,12 +199,16 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [whines.]
+  chatMessages: [скиглить.]
   chatTriggers:
     - whine
     - whines
     - whined
     - whining
+    - скиглить # Cheeburbr. До кінця прототипу
+    - скиглять
+    - скавчить
+    - скавчать
 
 - type: emote
   id: Howl
@@ -191,12 +221,14 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [howls.]
+  chatMessages: [виє.]
   chatTriggers:
     - howl
     - howls
     - howling
     - howled
+    - виє # Cheeburbr. До кінця прототипу
+    - виють
 
 - type: emote
   id: Awoo
@@ -209,9 +241,13 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [awoos.]
+  chatMessages: [підвиває.]
   chatTriggers:
     - awoo
     - awoos
     - awooing
     - awooed
+    - підвиває # Cheeburbr. До кінця прототипу
+    - підвивають
+    - авукає
+    - авукають

@@ -34,7 +34,7 @@
             state: jumpsuit-female
   - type: Carriable # Frontier: Carrying system from nyanotrasen.
   - type: Speech # Frontier
-    allowedEmotes: ['Belch'] # Frontier
+#    allowedEmotes: ['Belch'] # Frontier – Cheeburbr. Нащо це?
 
 - type: entity
   parent: BaseSpeciesDummy

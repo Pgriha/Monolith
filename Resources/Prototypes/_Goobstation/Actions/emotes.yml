@@ -8,6 +8,10 @@
   - spins
   - spins.
   - spins!
+  - крутиться # Cheeburbr. До кінця прототипу
+  - крутяться
+  - крутиться навколо себе
+  - крутяться навколо себе
   event: !type:AnimationSpinEmoteEvent
 
 - type: emote
@@ -24,4 +28,8 @@
   - bounces
   - bounces.
   - bounces!
+  - стрибає # Cheeburbr. До кінця прототипу
+  - стрибають
+  - підстрибує
+  - підстрибують
   event: !type:AnimationJumpEmoteEvent

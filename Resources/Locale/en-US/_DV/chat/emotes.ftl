@@ -1,13 +1,13 @@
 # Names
-delta-chat-emote-name-honk = Honk
-delta-chat-emote-name-ring = Ring
-delta-chat-emote-name-pew = Pew
-delta-chat-emote-name-bang = Bang
-delta-chat-emote-name-beep = Beep
-delta-chat-emote-name-rev = Rev
-delta-chat-emote-name-caw = Caw
-delta-chat-emote-name-bark = Bark
-delta-chat-emote-name-snarl = Snarl
-delta-chat-emote-name-whine = Whine
-delta-chat-emote-name-howl = Howl
-delta-chat-emote-name-awoo = Awoo
+delta-chat-emote-name-honk = Гонкати
+delta-chat-emote-name-ring = Дзвеніти
+delta-chat-emote-name-pew = Піукати
+delta-chat-emote-name-bang = Імітувати постріл
+delta-chat-emote-name-beep = Біпати
+delta-chat-emote-name-rev = Гуркотіти
+delta-chat-emote-name-caw = Каркати
+delta-chat-emote-name-bark = Гавкати
+delta-chat-emote-name-snarl = Ричати
+delta-chat-emote-name-whine = Скиглити
+delta-chat-emote-name-howl = Вити
+delta-chat-emote-name-awoo = Підвивати

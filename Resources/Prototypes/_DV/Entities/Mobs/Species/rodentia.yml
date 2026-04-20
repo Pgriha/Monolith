@@ -23,7 +23,7 @@
     speechSounds: Squeak
     allowedEmotes:
     - Squeak
-    - Belch # Frontier
+#    - Belch # Frontier – Cheeburbr. Нащо це?
   - type: Fixtures
     fixtures: # TODO: This needs a second fixture just for mob collisions.
       fix1:
