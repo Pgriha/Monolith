@@ -56,7 +56,11 @@ punctuation = false
 
 [movement]
 #КОЛІІІІІЗІЯ
-mob_pushing = false
+mob_pushing = true
+pushing_static = true # Можливість штовхати інших (чомусь вимкнена на Моноліті)
+
+[atmos]
+space_wind = true # Як в оригіналі
 
 [shuttle]
 #Вимикає раундстарт спавн зайвих мап ваніли №1, зміни еваку та можливість ФТЛити великі шатли
