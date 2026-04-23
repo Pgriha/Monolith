@@ -8,7 +8,6 @@ chat-emote-name-trill = Трелювати
 chat-emote-name-warble = Тьохкати
 chat-emote-name-mars = Маркати
 chat-emote-name-bagawk = Кудахкати
-chat-emote-name-yip = Їпати
 
 # Message
 chat-emote-msg-trill = трелить!
@@ -16,4 +15,3 @@ chat-emote-msg-warble = тьохкає!
 chat-emote-msg-wurble = вурчить.
 chat-emote-msg-mars = маркає.
 chat-emote-msg-bagawk = кудахкає!
-chat-emote-msg-yip = їпає!
