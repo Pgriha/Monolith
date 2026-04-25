@@ -56,8 +56,8 @@ punctuation = false
 
 [movement]
 #КОЛІІІІІЗІЯ
-mob_pushing = true
 pushing_static = true # Можливість штовхати інших (чомусь вимкнена на Моноліті)
+mob_pushing = false # Я скурюся
 
 [atmos]
 space_wind = true # Як в оригіналі
