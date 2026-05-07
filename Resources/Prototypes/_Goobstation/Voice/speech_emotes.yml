@@ -3,7 +3,7 @@
   name: chat-emote-name-trill
   category: Vocal
   available: false
-  icon: _Goobstation/Interface/Emotes/caw.png
+  icon: { sprite: _Moffstation/Actions/resomi.rsi, state: bird_call }
   whitelist:
     components:
       - Vocal
@@ -26,7 +26,7 @@
   name: chat-emote-name-warble
   category: Vocal
   available: false
-  icon: _Goobstation/Interface/Emotes/caw.png
+  icon: { sprite: _Moffstation/Actions/resomi.rsi, state: bird_call }
   whitelist:
     components:
       - Vocal
@@ -47,7 +47,7 @@
   name: chat-emote-name-wurble
   category: Vocal
   available: false
-  icon: _Goobstation/Interface/Emotes/caw.png
+  icon: { sprite: _Moffstation/Actions/resomi.rsi, state: bird_call }
   whitelist:
     # tags:
     # - ShadowkinEmotes
@@ -73,7 +73,7 @@
   name: chat-emote-name-bagawk
   category: Vocal
   available: false
-  icon: _Goobstation/Interface/Emotes/caw.png
+  icon: { sprite: _Moffstation/Actions/resomi.rsi, state: bird_call }
   whitelist:
     components:
       - Vocal
