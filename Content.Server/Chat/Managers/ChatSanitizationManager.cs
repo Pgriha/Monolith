@@ -10,7 +10,7 @@ namespace Content.Server.Chat.Managers;
 ///     It currently ony removes the shorthands for emotes (like "lol" or "^-^") from a chat message and returns the last
 ///     emote in their message
 /// </summary>
-public sealed class ChatSanitizationManager : IChatSanitizationManager
+public sealed partial class ChatSanitizationManager : IChatSanitizationManager
 {
     private static readonly (Regex regex, string emoteKey)[] ShorthandToEmote =
     [
@@ -47,10 +47,7 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         Entry("xD", "chatsan-laughs"),
         Entry("хД", "chatsan-laughs"), // Cheeburbr
         Entry(":'(", "chatsan-cries"),
-        Entry(":'[", "chatsan-cries"),
         Entry("='(", "chatsan-cries"),
-        Entry("='[", "chatsan-cries"),
-        Entry(")':", "chatsan-cries"),
         Entry("]':", "chatsan-cries"),
         Entry(")'=", "chatsan-cries"),
         Entry("]'=", "chatsan-cries"),
@@ -64,12 +61,8 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         Entry(":i", "chatsan-sighs"),
         Entry(":і", "chatsan-sighs"), // Cheeburbr
         Entry(":|", "chatsan-sighs"),
-        Entry(":p", "chatsan-stick-out-tongue"),
         Entry(";p", "chatsan-stick-out-tongue"),
         Entry(":b", "chatsan-stick-out-tongue"),
-        Entry(":р", "chatsan-stick-out-tongue"), // Cheeburbr
-        Entry(";р", "chatsan-stick-out-tongue"), // Cheeburbr
-        Entry("0-0", "chatsan-wide-eyed"),
         Entry("o-o", "chatsan-wide-eyed"),
         Entry("o.o", "chatsan-wide-eyed"),
         Entry("0_0", "chatsan-wide-eyed"), // Cheeburbr
@@ -108,6 +101,7 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         Entry("o7", "chatsan-salutes"),
         Entry("о7", "chatsan-salutes"), // Cheeburbr
         Entry(";_;7", "chatsan-tearfully-salutes"),
+        Entry("idk", "chatsan-shrugs"),
         Entry("хз", "chatsan-shrugs"), // Cheeburbr
         Entry(";)", "chatsan-winks"),
         Entry(";]", "chatsan-winks"),
@@ -123,8 +117,8 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         Entry("['=", "chatsan-tearfully-smiles"),
     ];
 
-    [Dependency] private readonly IConfigurationManager _configurationManager = default!;
-    [Dependency] private readonly ILocalizationManager _loc = default!;
+    [Dependency] private IConfigurationManager _configurationManager = default!;
+    [Dependency] private ILocalizationManager _loc = default!;
 
     private bool _doSanitize;
 

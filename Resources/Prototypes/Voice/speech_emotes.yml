@@ -449,6 +449,7 @@
   chatMessages: ["chat-emote-msg-buzz"]
   whitelist: # Mono
     components:
+    - Silicon
     - BorgChassis
   chatTriggers:
     - buzzing

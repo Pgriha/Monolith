@@ -19,7 +19,7 @@
   - роботично спочивають навіки
 
 - type: emote
-  id: Whirr # uncategorized as it is generic - Mono, youre an idiot.
+  id: Whirr
   name: chat-emote-name-whirr
   category: Vocal
   chatMessages: [ шурхотить. ]
@@ -29,6 +29,7 @@
     - BorgChassis
   chatTriggers:
     - whirrs
+    - rattles
     - шурхотить # Cheeburbr. До кінця прототипу
     - шурхотять
 
@@ -37,7 +38,7 @@
   name: chat-emote-name-boop
   category: Vocal
   chatMessages: [ бупає. ]
-  whitelist:
+  whitelist: # Mono - IPC's, borgs, protogens
     components:
     - Silicon
     - BorgChassis
