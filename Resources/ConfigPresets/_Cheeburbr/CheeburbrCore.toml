@@ -6,6 +6,7 @@
 [adminlogs]
 #Назва серверу у адмін нотатках
 server_name = "Бззз Монолітне"
+#high_log_playtime = -1 # Прибирання зайвих повідомлень адміністрації, але в Моноліті цього поки нема
 
 ## Загальне-загальне
 [game]
@@ -13,8 +14,8 @@ server_name = "Бззз Монолітне"
 hostname = "Cotton Cheeburbr"
 desc = "Ммм. . . Ну типу так? Ви зрозуміли. Бавовняний сирбурбер.\nВ цей раз Монолітуємо."
 soft_max_players = 20
-defaultpreset = "Extended"
-fallbackpreset = "Extended"
+defaultpreset = "MonoStandard"
+fallbackpreset = "MonoStandard"
 maxcharacterslots = 50
 panic_bunker.enabled = false
 panic_bunker.enable_without_admins = false
@@ -101,6 +102,9 @@ storage_limit = 3
 #Ранки адміністрації в АХелпі (красівоє)
 admin_prefix = true
 admin_prefix_webhook = false
+
+[vote]
+autovote_enabled = false
 
 ## Чисто технічне. Нема сенсу чипати
 [console]
