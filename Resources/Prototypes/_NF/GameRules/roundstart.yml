@@ -14,8 +14,8 @@
       tableId: MajorBluespaceEventsTable
     minimumTimeUntilFirstEvent: 1800 # 30 minutes # Mono: from 45 to 30
     minMaxEventTiming:
-      min: 1800 # 30 minutes between events #Mono: from 45 to 30
-      max: 3000 # 50 minutes between events #Mono: from 75 to 50
+      min: 2700 # Cheeburbr. 45 хвилин, як в Фронтира, 30 у Моноліта
+      max: 4500 # Cheeburbr. 75 хвилин, як в Фронтира, 50 у Моноліта
 
 - type: entityTable
   id: MajorBluespaceEventsTable
@@ -41,8 +41,8 @@
       tableId: DungeonBluespaceEventsTable
     minimumTimeUntilFirstEvent: 600 # 10 minutes
     minMaxEventTiming:
-      min: 2100 # 35 minutes between events
-      max: 2400 # 40 minutes between events
+      min: 2700 # Cheeburbr. 45 хвилин, 35 в оригіналі
+      max: 3600 # Cheeburbr. 60 хвилин, 40 в оригіналі
 
 - type: entityTable
   id: DungeonBluespaceEventsTable
@@ -63,8 +63,8 @@
       tableId: SalvageBluespaceEventsTable
     minimumTimeUntilFirstEvent: 420 # 7 minutes
     minMaxEventTiming:
-      min: 2100 # 35 minutes between events
-      max: 2400 # 40 minutes between events
+      min: 2700 # Cheeburbr. 45 хвилин, 35 в оригіналі
+      max: 3600 # Cheeburbr. 60 хвилин, 40 в оригіналі
 
 - type: entityTable
   id: SalvageBluespaceEventsTable
@@ -81,8 +81,8 @@
       tableId: MajorSmugglingEventsTable
     minimumTimeUntilFirstEvent: 1800 # 30 minutes
     minMaxEventTiming:
-      min: 28800 # 8 hours between events
-      max: 43200 # 12 hours between events
+      min: 10800 # Cheeburbr. 3 години, 8 в оригіналі
+      max: 18000 # Cheeburbr. 5 годин, 12 в оригіналі
 
 - type: entityTable
   id: MajorSmugglingEventsTable
