@@ -18,6 +18,7 @@ chat-radio-supply = Логістика
 chat-radio-syndicate = Синдикат
 chat-radio-freelance = Авангард
 chat-radio-vanguard-command = Командування Авангарда
+chat-radio-freeport = Вільний Порт
 
 # not headset but whatever
 chat-radio-handheld = Портативний
